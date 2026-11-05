@@ -5,8 +5,8 @@
 # on the hassio network, so it reaches Zigbee2MQTT by its internal hostname,
 # and publishes the bridge ports on the host instead.
 name: Bifrost (nstfn)
-# TODO(placeholder): keep in sync with the image tag in build.yaml.
-version: nstfn-main-YYYY-MM-DD
+# Keep in sync with the image tag in build.yaml.
+version: nstfn-main-2026-11-05
 slug: bifrost_nstfn
 description: "Hue bridge emulator backed by Zigbee2MQTT (personal fork, no host network)."
 url: "https://github.com/nstfn/bifrost"

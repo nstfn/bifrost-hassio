@@ -4,8 +4,9 @@
 # push to the branch nstfn/main. Tags: nstfn-main-latest and nstfn-main-YYYY-MM-DD.
 # The GHCR package must be public, or the supervisor cannot pull it.
 build_from:
-  # TODO(placeholder): replace YYYY-MM-DD with the date tag of the published build.
-  aarch64: "ghcr.io/nstfn/bifrost:nstfn-main-YYYY-MM-DD"
+  # Build of nstfn/bifrost d227b3c, index digest sha256:20f72a7659e4cf35a54750e95b2ed3c3ccc84abd7520829cc4aea3916aed6e8d.
+  # A second push on the same day moves the date tag: compare the digest before a rebuild.
+  aarch64: "ghcr.io/nstfn/bifrost:nstfn-main-2026-11-05"
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: Bifrost (nstfn)"
   org.opencontainers.image.description: "Hue bridge emulator backed by Zigbee2MQTT (personal fork, no host network)."
